@@ -1,0 +1,35 @@
+li{
+  list-style-type: none;
+  border: 1px solid #e8e8e8 ;
+  width: auto;
+  min-width: 300px;
+  height: 38px;
+  line-height: 38px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li p {
+  margin: 0px;
+  font-size: 12px;
+  font-weight: 500;
+  flex: 1;
+};
+
+li .actionContainer {
+  width: 120px;
+}
+
+li .actionContainer span {
+  color: #40a9ff;
+  border-bottom: 1px solid #40a9ff;
+  margin-inline-end: 12px;
+  cursor: pointer;
+}
+
