@@ -1,0 +1,40 @@
+.loginForm{
+  width: 400px;
+  justify-content: center;
+}
+.innerForm {
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.125);
+  border-radius: 8px;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 350px;
+  align-items: center;
+  padding: 10px 6px;
+}
+
+input.extra {
+  width: 95%;
+  margin: auto;
+  margin-bottom: 4px;
+}
+
+button {
+  background-color: #40a9ff;
+  color: #fff;
+  outline: none;
+  border: 0px;
+  cursor: pointer;
+  width: 98%;
+  height: 30px;
+  border-radius: 4px;
+}
+
+
+.error {
+  text-align: center;
+  color: red;
+  font-size: 13px;
+  margin: 3px 0px;
+  height: 20px;
+  line-height: 20px;
+}

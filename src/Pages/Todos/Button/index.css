@@ -1,0 +1,17 @@
+#todobtn{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #40a9ff;
+  color: aliceblue;
+  outline: none;
+  border: 0px;
+  cursor: pointer;
+}
+
+#todobtn.danger {
+  width: 18px;
+  height: 18px;
+  background-color: red;
+  color: #fff;
+}

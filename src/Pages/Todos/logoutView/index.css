@@ -1,0 +1,14 @@
+.logout-container {
+  position: fixed;
+    min-width: 50px;
+    min-height: 28px;
+    line-height: 28px;
+    right: 68px;
+    padding: 0px 10px;
+    border-radius: 4px;
+    background-color: #40a9ff;
+    color: #fff;
+    top: 5px;
+    cursor: pointer;
+
+}
